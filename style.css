@@ -1,0 +1,54 @@
+:root {
+    --primary0: #03396C;
+    --primary1: #005B96;
+
+    --text0: #ffffff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary1);
+    position: relative;
+}
+
+* {
+    /* outline: 1px red solid; */
+    margin: 0;
+    padding: 0;
+}
+
+.titleCircle {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 1500px;
+    background-color: var(--primary0);
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+.titleWrapper {
+    width: 40%;
+    padding: 30%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(25%);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.titleStart {
+    font-family: "Karla";
+    color: var(--text0);
+    font-size: 3rem;
+}
+
+.titleName {
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    color: var(--text0);
+    font-size: 5rem;
+}
